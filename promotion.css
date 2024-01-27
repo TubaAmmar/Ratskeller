@@ -1,0 +1,121 @@
+.promotion{
+    background-image: url('img/patrick-tomasso-GXXYkSwndP4-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+}
+
+.paragraph0{
+    margin-left: auto;
+    margin-top: auto;
+    padding: 1rem;
+    font-family: merriweather;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    width: 30%;
+}
+.item0{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+}
+.item11{
+    transition: opacity 2s ease-in-out
+}
+.item11 img{
+    width: 100%;
+}
+.item33{
+    transition: opacity 2s ease-in-out
+}
+.item33 img{
+    width: 100%;
+}
+.he1{
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+    font-family:'Satisfy', cursive;
+}
+
+.item22{
+   margin-top: -2rem;
+    width: 90%;
+    text-align: justify;
+    line-height: 1.4rem;
+    font-size: 1rem;
+   padding-left: 2rem;
+    height: 400px;
+     padding-top: 4.5rem;
+     
+}
+.item44 img{
+    width: 40%;
+    margin-top: -7.5rem;
+    margin-left: 20.7rem;
+    height: 300px;
+
+}
+
+.he2{
+  
+    text-align: center;
+    width: 40%;
+    margin:10px auto;
+    margin-bottom: 6rem;
+    
+}
+
+.imagee{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transition: opacity 10s ease-in-out
+}
+.imagee img{
+    width: 50%;
+    margin: 0;
+}
+.terrace{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 800px){
+    .paragraph0{
+        width: 65%;
+    }
+    .item44 img{
+        display: none;
+    }
+    .item22{
+        margin-top: 1rem;
+       
+    }
+    .item33{
+        margin-top: -4rem;
+
+    }
+    .he1{
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .imagee{
+        order: 2;
+        margin-top: 0;
+    }
+    .imagee img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .he2{
+        width: 90%;
+        text-align: ;
+        margin-top: 5rem;
+    }
+ 
+ 
+  }

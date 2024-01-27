@@ -1,0 +1,39 @@
+.about{
+    background-image: url('img/6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 22%;
+    height: 400px;
+    display: flex;
+}
+
+.paragraph0{
+    margin-left: auto;
+    margin-top: auto;
+    padding: 1rem;
+    font-family: merriweather;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    width: 20%;
+}
+
+.services h1{
+    font-family:'Satisfy', cursive;
+}
+.services p{
+    width: 50%;
+    margin: 0 auto;
+}
+.services{
+    margin-bottom: 5rem;
+}
+@media only screen and (max-width: 800px){
+    .paragraph0{
+        width: 60%;
+    }
+    .services p{
+        width: 80%;
+        margin: 0 auto;
+    }
+}

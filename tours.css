@@ -1,0 +1,98 @@
+.about{
+    background-image: url('img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+}
+
+.paragraph0{
+    margin-left: auto;
+    margin-top: auto;
+    padding: 1rem;
+    font-family: merriweather;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    width: 35%;
+}
+
+.tours h1{
+    font-family:'Satisfy', cursive;
+}
+.tours1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+}
+.tour1 p{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    padding: 2rem;
+ }
+.tour2 p{
+   width: 50%;
+   text-align: center;
+   margin: 0 auto;
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+   padding: 2rem;
+}
+.downloadbutton p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family:'Satisfy', cursive;
+
+}
+
+.downloadbutton{
+  
+    border: 2px solid black;
+    width: 50%;
+    margin: 6rem auto;
+    padding: 2rem;
+}
+.downloadbutton button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth animation */
+  
+  }
+
+  /* Add hover effect */
+  .downloadbutton button:hover{
+    transform: scale(1.1); /* Scale up by 10% on hover */
+    background-color: rgb(73, 207, 207);
+  }
+
+@media only screen and (max-width: 800px){
+    .paragraph0{
+        width: 70%;
+    }
+    .tour1 p{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        padding: 2rem;
+     }
+    .tour2 p{
+       width: 80%;
+       text-align: center;
+       margin: 0 auto;
+       box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+       padding: 2rem;
+    }
+    .downloadbutton{
+  
+        border: 2px solid black;
+        width: 80%;
+        margin: 6rem auto;
+        padding: 2rem;
+    }
+}

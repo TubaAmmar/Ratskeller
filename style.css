@@ -1,0 +1,527 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: merriweather;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main{
+    flex-grow: 1;
+}
+
+.nav1{
+    display: flex;
+    justify-content:space-around;
+}
+
+.item2 .home{
+    display: none;
+}
+.item1 a{
+    font-family: 'Brush Script', cursive;
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: .5rem;
+  
+}
+.item1{
+    margin-top: .7rem;
+}
+
+.item2 ul li {
+ display: inline-block;
+ padding-top: .3rem;
+}
+
+.item2 ul li a{
+    color: rgb(63, 62, 62);
+    font-family: ;
+    font-size: 13px;
+    font-weight: 600;
+    line-height:16.8px;
+    text-decoration: none;
+    padding: .5rem;
+    position: relative;
+    
+    
+}
+
+.item2 ul li a:hover{
+    color: #2980b9;
+}
+
+.item2 ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px; /* Adjust the border-bottom height as needed */
+    background-color: #007bff; /* Adjust the border-bottom color as needed */
+    transition: width 0.3s ease; /* Add transition property for animation */
+  }
+  
+  .item2 ul li a:hover::after {
+    width: 100%;
+  }
+
+.icon1,.icon2{
+    display: none;
+}
+.section1{
+   background-image: url('img/Ratskeller_Mls_015.jpg');
+   height:80vh;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin: 0 auto;
+   background-size: cover;
+   display: flex;
+   z-index: -1;
+   animation: changeImage 15s linear infinite;
+
+}
+
+@keyframes changeImage {
+    0%, 100% {
+        background-image: url('img/Ratskeller_Mls_015.jpg');
+    }
+    25% {
+        background-image: url('img/9.jpg');
+    }
+    50% {
+        background-image: url('img/7.jpg');
+    }
+    75% {
+        background-image: url('img/Ratskeller_Mls_015.jpg');
+    }
+   
+}
+.para1{
+    margin-left: auto;
+    margin-top: auto;
+    background-color: azure;
+    padding: 2rem;
+
+}
+.para1 a{
+    color: black;
+    
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+  
+    padding: .5rem;
+
+}
+
+.container2{
+    overflow: hidden;
+    position: relative;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.animated-text1 {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    width: 50%;
+    display: flex;
+
+    
+
+}
+
+.animated-text1.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.para2{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: merriweather;
+    align-self: center;
+    padding: 1rem 1rem .5rem 1rem;
+}
+.image1{
+    margin: 0 auto;
+    padding: 1rem;
+}
+.para3{
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 1.4rem;
+   padding-left: 10px;
+    text-align-last: center;
+    text-align: justify;
+}
+
+.hours{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+}
+
+.container3{
+    background-image: url('img');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    display: flex;
+    width: ;
+}
+
+.para4{
+    
+    color: black;
+    width: ;
+    text-align: center;
+    margin: auto;
+    padding: 3rem;
+    padding-bottom: 3rem;
+    border-right: 2px solid black;
+    
+}
+
+.p2{
+    text-align: center;
+    
+}
+.p3{
+    font-size: .8rem;
+}
+.para4 .p1{
+    font-size: 1.7rem;
+ }
+ .para5{
+  margin-top: ;
+ }
+ .p4{
+    width: 90%;
+    padding: 1.5rem;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    text-align: justify;
+  
+ }
+
+ .container3 {
+    opacity: 0;
+    transform: translateY(50%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.container3.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.container4 {
+    opacity: 0;
+    transform: translateY(0);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.container4.animate {
+    opacity: 1;
+    transform: translateY(30%);
+}
+
+.footer{
+    background-color: #e5e9ed;
+    height:150px;
+    padding-top: 2rem;
+}
+.social-icons {
+    font-size: 1.5rem;
+}
+
+.instagram-icon:hover{
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.instagram-icon {
+    color: #bc2a8d;
+}
+
+.facebook-icon {
+    color: #1877f2;
+    margin-left: 10px;
+}
+.facebook-icon:hover{
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.location{
+   display: flex;
+   margin-top: 4.5rem;
+   margin-bottom: 5rem;
+}
+.loc1{
+    margin: auto;
+    width: 70%;
+}
+.block1{
+    background-image: url('img/Ratskeller_Mls_015.jpg');
+    background-size: cover;
+    background-position: left bottom;
+    background-attachment: fixed;
+    height: 200px;
+    display: flex;
+  
+   
+}
+
+.p7{
+background-color: white;
+line-height: 30px;
+font-size: .9rem;
+ font-weight: 500;
+ color: black;
+ width: 25%;
+ margin-left: auto;
+ height: 200px;
+ padding-top: .2rem;
+padding-left: .9rem;
+text-align: justify;
+font-family: merriweather;
+}
+
+.block1{
+    margin-bottom: -2%;
+}
+
+ 
+.box{
+    background-color: #e5e9ed;
+    color: black;
+    width: 50%;
+}
+.card11{
+
+    padding-top: 5rem;
+    width: 60%;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+    border-radius: 20px 20px;
+    background-color: aliceblue;
+    color: black;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.fa-times{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 9rem;
+    font-size: 1.5rem;
+    margin-right: -20rem;
+}
+@media only screen and (max-width: 800px){
+    .item2{
+        padding-top:0 ;
+        padding-left: 0;
+        position: absolute;
+        top: 0;
+        left: -300px ;
+        right: px;
+        height: 100vh;
+        width: 300px;
+        background-color: rgb(236, 230, 230);
+        z-index: 2;
+        transition: left 0.3s ease;
+
+      }
+      .fa-times{
+        margin-left: -3.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1rem;
+        font-size: 1.5rem;
+    }
+    .card11{
+        width: 100%;
+    }
+
+      .item2 ul li {
+         display: block;
+         padding-bottom: .4rem;
+         
+      }
+
+      .item2 .home{
+        padding-top: 3rem;
+      }
+      .item2 ul li a{
+        font-size: 15px;
+    }
+    .icon1,.icon2{
+        display: block;
+    }
+     
+    .fa-arrow-left{
+     position: absolute;
+     right: 8%;
+     top:1.7%;
+     font-size: 1.5rem;
+     display: block;
+
+    }
+    .fa-bars-staggered{
+        padding-top: .4rem;
+        font-size: 1.2rem;
+        display: block;
+    }
+    .logo{
+        font-size: 1.3rem;
+    }
+    .item2 .home{
+        display: block;
+    }
+    .item1 a{
+        font-family: 'Brush Script', cursive;
+        font-weight: 900;
+        font-size: 1.3rem;
+        color: black;
+        text-decoration: none;
+        border: 0px solid black;
+        padding: 0;
+    }
+    .para1{
+        margin-left: auto;
+        margin-top: auto;
+        background-color: azure;
+        padding: 1.4rem;
+    
+    }
+    .para1 a{
+        color: black;
+        font-family: 'Brush Script', cursive;
+        font-weight: 900;
+        font-size: 1.3rem;
+        color: black;
+        text-decoration: none;
+      
+        padding: .5rem;
+    
+    }
+    .para2{
+        font-size: 1.2rem;
+        font-weight: 700;
+        font-family: merriweather;
+        align-self: center;
+        padding: 1rem 1rem .5rem 1rem;
+    }
+    .image1 img{
+        width: 280px;
+      
+    }
+
+    
+.animated-text1 {
+    border: 0px solid black;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    width: 50%;
+    display: flex;
+
+    
+
+}
+.animated-text1.active {
+    opacity: 1;
+    transform: translateX(-35%);
+}
+.para3{
+    width: 69%;
+     text-align: justify;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 1.4rem;
+   padding-left: 10px;
+   
+}
+.para4{
+    
+    color: black;
+    margin: auto;
+    padding: 1rem;
+    padding-bottom: 1rem;
+   border-right: 0px solid black;
+    border-bottom: 2px solid black;
+    
+}
+.p4{
+    width: 90%;
+    padding: 1.5rem;
+    color: black;
+    margin-top: 5.5rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  
+ }
+ .para4 .p1{
+    font-size: 1.5rem;
+ }
+ .hours{
+    margin-top: -5rem;
+ }
+ .para5{
+    margin-top: -7.5rem;
+    margin-left: 2rem;
+ }
+ .container4.animate {
+    opacity: 1;
+    transform: translateY(10%);
+}
+
+.footer{
+    background-color: #c2c3c4;
+    height:200px;
+    margin-top: 2.8rem;
+    padding-top: 3rem;
+}
+.p6{
+    font-size: .9rem;
+}
+.facebook-icon{
+    margin-left: .5rem;
+}
+
+.p7{
+    background-color: white;
+    line-height: 30px;
+    font-size: 1.1rem;
+     font-weight: 500;
+     color: black;
+     width: 100%;
+     margin: auto;
+     height: 200px;
+     padding-top: 1rem;
+    padding-left: .9rem;
+    font-family:'Satisfy', cursive;
+    
+     
+    
+    }
+}

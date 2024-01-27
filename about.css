@@ -1,0 +1,194 @@
+.about{
+    background-image: url('img/9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: 400px;
+    display: flex;
+}
+
+.paragraph0{
+    margin-left: auto;
+    margin-top: auto;
+    padding: 1rem;
+    font-family: merriweather;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    width: 20%;
+}
+
+.aboutme h1{
+    font-family:'Satisfy', cursive;
+}
+.paragraph1{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+.aboutme{
+    opacity: 0;
+    transform: translateY(50%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    margin-bottom: 15rem;
+}
+
+.aboutme.animate1 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.aboutme{
+    margin-top: 3.6rem;
+   
+}
+
+.rooms{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    align-items: center;
+    justify-content: center;
+}
+.room1{
+width: 100%;
+height: 100%;
+}
+
+.paragraph2{
+    width: 80%;
+    text-align: justify;
+    line-height: 1.4rem;
+    font-size: 1rem;
+    padding-left: 4rem;
+    height: 400px;
+     padding-top: 6rem;
+   
+}
+.room2{
+    padding-left: 1rem;
+    height: 100%;
+}
+
+.room2 {
+    transform: scale(0);
+    transition: transform 0.5s ease-in-out;
+ }
+ 
+ .room2.animate2 {
+    transform: scale(1);
+ }
+ 
+ .room11 {
+        width: 100%;
+        height: 100%;
+        margin-top: -6rem;
+        
+ }
+ 
+ .paragraph22{
+    width: 85%;
+    text-align: justify;
+    line-height: 1.4rem;
+    font-size: 1rem;
+    padding-left: 5.5rem;
+    height: 400px;
+     padding-top: 4.5rem;
+    
+}
+
+.room22{
+    padding-left: 1rem;
+    height: 100%;
+}
+
+.room22 {
+    transform: scale(0);
+    transition: transform 0.5s ease-in-out;
+ }
+ 
+ .room22.animate4 {
+    transform: scale(1);
+ }
+
+ .paragraph3{
+    background-color: black;
+    width: 100%;
+  
+ }
+ .p33{
+   
+     padding: 2rem;
+    color: aliceblue; 
+     text-align: center;
+     width: 50%;
+     margin: 0 auto;
+     margin-top: 4rem;
+ }
+@media only screen and (max-width: 800px){
+    .paragraph0{
+        width: 60%;
+    }
+    
+.aboutme{
+    margin-top: 2.8rem;
+    margin-bottom: 6rem;
+   
+}
+.paragraph1{
+    width: 70%;
+    text-align: justify;
+}
+.aboutme{
+    opacity: 0;
+    transform: translateY(8%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.aboutme.animate1 {
+    opacity: 1;
+    transform: translateY(0);
+}
+.paragraph2{
+    width: 90%;
+    text-align: justify;
+    line-height: 1.4rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    height: 400px;
+     padding-top: 3rem;
+     font-family:'Satisfy', cursive;
+}
+.paragraph22{
+    width: 90%;
+    text-align: justify;
+    line-height: 1.4rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    height: 400px;
+     padding-top: 6rem;
+     font-family:'Satisfy', cursive;
+}
+.room1{
+    margin-top: -10rem;
+}
+.room11 {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    
+}
+.p33{
+   
+    padding: 2rem;
+   color: aliceblue; 
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: -3rem;
+}
+}
+
+
+  
