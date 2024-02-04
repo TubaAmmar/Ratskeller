@@ -699,6 +699,10 @@ font-family: 'Noto Serif', serif;
       .l1{
         text-align: start;
       }
+
+      form input{
+        width: 100%;
+      }
  
        .reser3{
          padding: .6rem;
