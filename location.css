@@ -4,10 +4,10 @@ h1{
 .locatio{
     width: 100%;
 }
-.loca1{
+.locaa1{
     width: 45%;
     margin: 0 auto;
-   
+    font-family: merriweather;
     text-align-last: center;
     margin-top: 5rem;
     font-size: 1.3rem;
@@ -24,7 +24,7 @@ h1{
 }
 
 @media only screen and (max-width: 800px){
-    .loca1{
+    .locaa1{
         width: 90%;
     }
 }

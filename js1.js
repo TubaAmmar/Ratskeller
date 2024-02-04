@@ -128,7 +128,16 @@ document.getElementById('popup4').style.display = 'none';
 }
 
 
+function openModal(imageSrc) {
+  document.getElementById('modal-image').src = imageSrc;
+  document.getElementById('modal').style.display = 'flex';
+  document.body.style.overflow = 'hidden'; /* Prevent scrolling when modal is open */
+}
 
+function closeModal() {
+  document.getElementById('modal').style.display = 'none';
+  document.body.style.overflow = 'auto'; /* Enable scrolling when modal is closed */
+}
 
 
 

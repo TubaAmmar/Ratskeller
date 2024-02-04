@@ -3,95 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jQuery Image Slider</title>
+    <title>Image Gallery</title>
     <style>
-        .section1 {
-            height: 80vh;
-            width: 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            margin: 0 auto;
-            background-size: cover;
-            display: flex;
-            position: relative;
-            animation: fadeIn 1.5s ease-out;
-        }
-
-        .para1 {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: white;
-            padding: 2rem;
-            width: 450px;
-            font-family: 'Dancing Script', cursive;
-            font-style: italic;
-            text-align: center;
-        }
-
-        .slider-controls {
-            position: absolute;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-
-        .slider-controls button {
-            margin: 0 5px;
-            padding: 5px 10px;
-            cursor: pointer;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
+    
     </style>
-    <!-- Include jQuery and jQuery Easing from CDN -->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="section1" id="backgroundSection">
-            <p class="para1"><a href="index.html"><span class="">Welcome</span> </a></p>
-        </div>
-        <div class="slider-controls">
-            <button onclick="prevImage()">Previous</button>
-            <button onclick="nextImage()">Next</button>
-        </div>
-    </div>
 
-    <script>
-        const images = ['img/Ratskeller_Mls_015.jpg', 'img/9.jpg', 'img/7.jpg'];
-        let currentImageIndex = 0;
 
-        function showImage(index) {
-            $('#backgroundSection').css('background-image', `url('${images[index]}')`);
-        }
 
-        function prevImage() {
-            currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
-            showImage(currentImageIndex);
-        }
+<script>
+ 
+</script>
 
-        function nextImage() {
-            currentImageIndex = (currentImageIndex + 1) % images.length;
-            showImage(currentImageIndex);
-        }
-
-        // Automatic image change every 5 seconds
-        setInterval(() => {
-            nextImage();
-        }, 5000);
-
-        // Initial image display
-        showImage(currentImageIndex);
-    </script>
 </body>
 </html>

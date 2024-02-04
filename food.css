@@ -1,82 +1,55 @@
-.food{
-    background-image: url('img/zeny-rosalina-m8sHZlyCh6A-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.section112{
+    background-image: url('img/11.jpg');
+    height:60vh;
+    width: 100%;
     background-position: center;
-    height: 400px;
-    display: flex;
-}
-
-.paragraph0{
-    margin-left: auto;
-    margin-top: auto;
-    padding: 1rem;
-    font-family: merriweather;
-    font-weight: 600;
-    font-size: 1.5rem;
-    background-color: aliceblue;
-    width: 30%;
-}
-.aboutme h1{
-    font-family:'Satisfy', cursive;
-}
-.paragraph1{
-    width: 50%;
-    text-align: center;
+    background-repeat: no-repeat;
     margin: 0 auto;
+    background-size: cover;
+    display: flex;
+    animation:  15s linear infinite;
+
+ 
+ }
+
+
+
+ .para11{
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: -.6rem;
+    background-color: white;
+    padding: 2rem;
+    width: 450px;
+    font-family: 'Great Vibes', cursive;
+font-family: 'Lavishly Yours', cursive;
+font-family: 'Noto Serif', serif;
+     text-align: center;
+     letter-spacing:px;
+    font-style: italic;    
+
+}
+.para11 a{
+    color: black;
+    
+    font-weight: 100;
+    font-size:1.5rem;
+    color: black;
+    text-decoration: none;
   
-}
-.aboutme{
-    opacity: 0;
-    transform: translateY(50%);
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-    margin-bottom: 8rem;
-}
-
-.aboutme.animate1 {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.aboutme{
-    margin-top: 3.6rem;
-   
-}
-.buttons{
-display: flex;
-justify-content: center;
-align-items: center;
+    padding: .5rem;
 
 }
-.button1, .button2 {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out; /* Add transition for smooth animation */
-  
-  }
 
-  /* Add hover effect */
-  .button1:hover, .button2:hover {
-    transform: scale(1.1); /* Scale up by 10% on hover */
-    background-color: rgb(73, 207, 207);
-  }
+.m1{
+    margin-top: 5rem ;
+    margin-bottom: 5rem ;
+}
 
   @media only screen and (max-width: 800px){
-    .paragraph0{
-        width:65%;
+    .m1{
+        margin-top: 1rem ;
+        margin-bottom: 2rem ;
     }
-    .buttons{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-        }
-        .aboutme{
-            margin-bottom: 4rem;
-        }
   }

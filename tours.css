@@ -1,22 +1,45 @@
-.about{
+
+.section113{
     background-image: url('img/1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    height:60vh;
+    width: 100%;
     background-position: center;
-    height: 400px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
     display: flex;
+    animation:  15s linear infinite;
+
+ 
+ }
+
+ .para11{
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: -.6rem;
+    background-color: white;
+    padding: 2rem;
+    width: 450px;
+    font-family: 'Great Vibes', cursive;
+   font-family: 'Lavishly Yours', cursive;
+    font-family: 'Noto Serif', serif;
+     text-align: center;
+     letter-spacing:px;
+    font-style: italic;    
+
+}
+.para11 a{
+    color: black;
+    font-weight: 100;
+    font-size:1.5rem;
+    color: black;
+    text-decoration: none;
+    padding: .5rem;
+
 }
 
-.paragraph0{
-    margin-left: auto;
-    margin-top: auto;
-    padding: 1rem;
-    font-family: merriweather;
-    font-weight: 600;
-    font-size: 1.5rem;
-    background-color: aliceblue;
-    width: 35%;
-}
+
+
 
 .tours h1{
     font-family:'Satisfy', cursive;

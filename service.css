@@ -1,25 +1,23 @@
-.about{
-    background-image: url('img/6.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 30% 22%;
-    height: 400px;
-    display: flex;
-}
 
-.paragraph0{
-    margin-left: auto;
-    margin-top: auto;
-    padding: 1rem;
-    font-family: merriweather;
-    font-weight: 600;
-    font-size: 1.5rem;
-    background-color: aliceblue;
-    width: 20%;
-}
+
+.section111{
+    background-image: url('img/6.jpg');
+    height:60vh;
+    width: 100%;
+    background-position: 30% 22%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    display: flex;
+    animation:  15s linear infinite;
+
+ 
+ }
 
 .services h1{
-    font-family:'Satisfy', cursive;
+    font-family: merriweather;
+    
+    margin-top: 4rem;
 }
 .services p{
     width: 50%;
@@ -35,5 +33,10 @@
     .services p{
         width: 80%;
         margin: 0 auto;
+    }
+
+    .services h1{
+        font-family:'Satisfy', cursive;
+        margin-top: 1rem;
     }
 }
