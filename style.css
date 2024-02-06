@@ -283,13 +283,13 @@ font-family: 'Noto Serif', serif;
 }
 
 .welbutton:hover{
-    background-color: white;
+    background-color: red;
     color: black;
    
 }
 
 .welbutton a:hover{
-  color: black;
+  
   transition: .5s;
 }
 
@@ -732,7 +732,10 @@ font-family: 'Noto Serif', serif;
 
     .welbutton{
         width: 50%;
+       
     }
+
+    
 
     .menu{
         width: 100%;
