@@ -23,7 +23,7 @@ body{
   }
   
   .loader-content {
-    background: red;
+    background: rgb(4, 4, 4);
     height: 400px;
     color: white;
     max-width: 550px;
@@ -31,7 +31,7 @@ body{
     text-align: center;
     border-radius: 2%;
     margin-bottom: 3rem;
-    box-shadow: rgba(197, 38, 38, 0.19) 0px 10px 20px, rgba(190, 15, 15, 0.23) 0px 6px 6px;
+    box-shadow: rgba(236, 233, 233, 0.19) 0px 10px 20px, rgba(244, 240, 240, 0.23) 0px 6px 6px;
   }
   
   #loader-box h2 {
@@ -42,6 +42,34 @@ body{
   #loader-box p {
     margin: 10px 0;
   }
+
+  .opening-hours{
+
+    width: 90%;
+    margin: 6rem auto;
+    margin-top: 5rem;
+    
+    padding: 2rem;
+   
+   
+  }
+
+  .hr1{
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .hr2{
+    text-align: center;
+    fon
+  }
+
+  .hr3{
+     color: red;
+     font-weight: 700;
+  }
+
   
   .icon6{
     color: white;
@@ -225,14 +253,21 @@ font-family: 'Noto Serif', serif;
     margin-top: 2rem;
     background-color: black;
     color: white;
-    height: 320px;
+    height: 410px;
     display: flex;
     flex-direction: column;
+    width: 95%;
+   
 }
 .welpart p{
     width: 80%;
     margin: 10px auto;
-    padding-top: 4rem;
+    padding-top: 2.9rem;
+}
+
+.welbutton a{
+  color: white;
+  text-decoration: none;
 }
 
 .welbutton{
@@ -240,14 +275,22 @@ font-family: 'Noto Serif', serif;
     padding: .7rem;
     background-color: black;
     color: white;
-     width: 15%;
-     margin: 18px auto;
+    width: 40%;
+    margin: 0 auto;
+    
+    
+    
 }
 
 .welbutton:hover{
     background-color: white;
     color: black;
-    transition: .5s;
+   
+}
+
+.welbutton a:hover{
+  color: black;
+  transition: .5s;
 }
 
 .menu{
@@ -335,7 +378,8 @@ font-family: 'Noto Serif', serif;
     .reser1 h4{
          color: white;
          font-style: italic;
-        
+         font-family: merriweather;
+         
     }
 
     .reser2{
@@ -345,7 +389,6 @@ font-family: 'Noto Serif', serif;
         background-color: red;
         width: 90%;
         margin-top: .5rem;
-       
         transition: .5s;
     }
     .reser2:hover{
@@ -657,8 +700,30 @@ font-family: 'Noto Serif', serif;
         padding: .5rem;
     
     }
+
+    
+  .opening-hours{
+
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .hr1{
+    font-size: 1.3rem;
+  }
+
+ 
+  .reser1 h4{
+        color: white;
+        font-style: italic;
+       font-size: 1.2rem;
+          
+     }
+
     .welpart{
         height: 550px;
+        width: 100%;
         
     }
     .welpart p{
@@ -691,6 +756,7 @@ font-family: 'Noto Serif', serif;
     form{
         width: 100%;
         margin: 0 0;
+        box-sizing: border-box;
        }
 
        form label{
@@ -702,6 +768,7 @@ font-family: 'Noto Serif', serif;
 
       form input{
         width: 100%;
+        box-sizing: border-box;
       }
  
        .reser3{

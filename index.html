@@ -101,13 +101,47 @@
       <div class="py-3"></div>
       <div class="container">
         <div class="section1">
-        <p class="para1"><a href="index.html"><span class="">Welcome</span> </a></p>
+        <p class="para1"><a href="index.html"><span class="">Welcome</span> <br/> 
         
-      
+        </a></p>
+        </div>
+
+        <!--
+        <div class="opening-hours"  data-aos="slide-right" data-aos-duration="1500">
+          <p class="hr1" >Restaurant Opening Hours</p>
+          <p class="hr2"><b>Öffnungszeiten: Täglich  von <br/>11.30 - 14.30  und 17.30-22.30 Uhr</b> <br/> <span class="hr3">Mittwoch Ruhetag</span> </p>
+          
+        </div>
+      </div>-->
+
+      <div class=""></div>
+      <div class="container ">
+        <div class="row">
+        <div class="col-12 col-md-6 py-5">
+          <div class="opening-hours"  data-aos="slide-right" data-aos-duration="1500">
+            <p class="hr1" >Restaurant Opening Hours</p>
+            <p class="hr2"><b>Öffnungszeiten: Täglich  von <br/> 11.30 - 14.30  und 17.30-22.30 Uhr</b> <br/> <span class="hr3">Mittwoch Ruhetag</span> </p>
+            
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="welpart">
+            <p class="p12">Wir freuen uns Sie als Gast auf unseren Seiten begrüßen zu dürfen und hoffen
+              Ihren Erwartungen und Ihrem Appetit mit unserem ausgewählten
+              gastronomischen Angebot entgegen zu kommen.
+              
+              Unser Küchenteam bereitet für Sie ausgesuchte Gerichte der deutschen Küche
+              und verschiedene Salate und Pasta.
+              Als Besonderheit möchten wir Ihnen die indische Küche näherbringen
+              und bieten Ihnen aus verschiedenen Regionen Indiens geschmackvolle Zubereitungen und Spezialitäten.</p>
+              <button class="welbutton"><a href="AboutUs.html">LEARN MORE</a></button>
+          </div>
         </div>
       </div>
-      <div class="py-3 main">
+      </div>
 
+      <div class="py-3 main">
+<!--
         <div class="container-fluid">
           <div class="welpart">
             <p class="p12">Wir freuen uns Sie als Gast auf unseren Seiten begrüßen zu dürfen und hoffen
@@ -118,9 +152,9 @@
               und verschiedene Salate und Pasta.
               Als Besonderheit möchten wir Ihnen die indische Küche näherbringen
               und bieten Ihnen aus verschiedenen Regionen Indiens geschmackvolle Zubereitungen und Spezialitäten.</p>
-              <button class="welbutton">LEARN MORE</button>
+              <a href="AboutUs.html"><button class="welbutton">LEARN MORE</button></a>
           </div>
-        </div>
+        </div>-->
         <div class="py-3"></div>
         <div class="container">
           <div class="menu">
@@ -129,7 +163,7 @@
             <p class="sub1">Menu</p>
             <p class="sub2">Experience a feast for the senses. Click, download our menu. Elevate your culinary journey with our delectable offerings. Explore now!</p>
             <div class="buttons">
-          <a href="pdf/Speisen_Innenseite_2022_A5_Text_deutsch.pdf" download="Speisen_Innenseite_2022_A5_Text_deutsch.pdf" target="_blank">
+          <a href="pdf/Speisekarte Rqatskeller 2024.pdf" download="Speisekarte Rqatskeller 2024.pdf" target="_blank">
           <button class=" button1">  Speisekarte </button>
           </a> <br/>
           <a href="pdf/Getr_nkekarte.pdf" download="Getr_nkekarte.pdf" target="_blank">
@@ -198,12 +232,13 @@
                     
                  
                 </div>
-                <li onclick="showPopup3()">Timmings</li>
+                <li onclick="showPopup3()">Timings</li>
                 <div class="popup-container1" id="popup3">
                   <div class="icon5"> <i class="fa fa-times" aria-hidden="true" onclick="hidePopup3()" ></i></div>
-                  <h4 class="text-center pb-2">Timmings</h4>
+                  <h4 class="text-center pb-2">Timings</h4>
                   <p class="cont1"> 
-                    <a href="" class="a1">  <b> Daily: 11:30am to 9:30pm <br/>(auch an Feiertagen) </b></a><br/>
+                    
+                      <p class="hr2"><b>Öffnungszeiten: Täglich  von <br/> 11.30 - 14.30  und 17.30-22.30 Uhr</b> <br/> <span class="hr3">Mittwoch Ruhetag</span> </p></b><br/>
                   
                     
                  
@@ -270,7 +305,7 @@ loaderBox.style.display = 'flex';
 // Hide the loader box after a certain duration (e.g., 3 seconds)
 setTimeout(function () {
 loaderBox.style.display = 'none';
-}, 20000); // Adjust the duration as needed
+}, 200000); // Adjust the duration as needed
 
 
 
@@ -284,7 +319,7 @@ loaderBox.style.display = 'none';
 // Hide the loader box after a certain duration (e.g., 3 seconds)
 setTimeout(function () {
 closeLoaderBox();
-}, 3000); // Adjust the duration as needed
+}, 300000); // Adjust the duration as needed
    </script>
 <script>
 function showPopup() {

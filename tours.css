@@ -42,7 +42,8 @@
 
 
 .tours h1{
-    font-family:'Satisfy', cursive;
+    font-family: merriweather;
+    font-style: italic;
 }
 .tours1{
     display: grid;
@@ -65,7 +66,8 @@
 .downloadbutton p{
     font-size: 1.5rem;
     font-weight: 600;
-    font-family:'Satisfy', cursive;
+   font-family: merriweather;
+   font-style: italic;
 
 }
 
