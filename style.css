@@ -43,6 +43,15 @@ body{
     margin: 10px 0;
   }
 
+  .imgg{
+    height: 60px;
+    margin-top: -1rem;
+  }
+
+  .imggg{
+    height: 40px;
+  }
+
   .opening-hours{
 
     width: 90%;
@@ -509,8 +518,9 @@ font-family: 'Noto Serif', serif;
 }
 
 .copy2{
+    padding-top: .5rem;
     text-align: right;
-    font-weight: 300;
+    font-weight: 400;
    
 }
 
