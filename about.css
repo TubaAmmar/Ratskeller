@@ -78,6 +78,11 @@
 }
 
 @media only screen and (max-width: 800px){
+    .section11{
+        height: 40vh;
+        background-position: center;
+      }
+  
     .about{
         margin-top: 4rem;
         margin-bottom: 4rem;

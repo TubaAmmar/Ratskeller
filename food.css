@@ -1,9 +1,9 @@
 
 .section112{
-    background-image: url('img/11.jpg');
+    background-image: url('img/WhatsApp\ Image\ 2024-02-15\ at\ 18.41.30_d656d93c.jpg');
     height:60vh;
     width: 100%;
-    background-position: center;
+    background-position: center ;
     background-repeat: no-repeat;
     margin: 0 auto;
     background-size: cover;
@@ -52,4 +52,8 @@ font-family: 'Noto Serif', serif;
         margin-top: 1rem ;
         margin-bottom: 2rem ;
     }
+    .section112{
+        height: 40vh;
+        background-position: center;
+      }
   }
